@@ -1,0 +1,21 @@
+.list-delete{
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-delete button{
+    background-color: #fd1d1d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 6px;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.list-delete button:hover{
+    opacity: 0.6;
+}

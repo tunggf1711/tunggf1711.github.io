@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.item-name{
+    flex: 1;
+}
+.item-amount{
+    flex: 2;
+    color: #fd1d1d;
+}
+.item:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scaleY(1.1);
+}
+.item-btn button{
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding-left: 4px;
+}
